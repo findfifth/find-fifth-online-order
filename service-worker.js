@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/find-fifth-order/precache-manifest.fc6354e05d87ef3558e35f42fc33e792.js"
+  "/find-fifth-online-order/precache-manifest.0ef7a3927ea78f7a0953160ba67be265.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/find-fifth-order/index.html", {
+workbox.routing.registerNavigationRoute("/find-fifth-online-order/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
